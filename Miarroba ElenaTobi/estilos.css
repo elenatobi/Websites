@@ -1,0 +1,97 @@
+body, form, table, tr, td, th {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse
+}
+
+th.view, td.view {
+	padding: 5.5px;
+	border: 1px solid #be69e4
+}
+
+th.view {
+	color: #fff;
+	background: #be69e4
+}
+
+h2 {
+	font-size: 19px
+}
+
+a, a.nav {
+	color: #000;
+	text-decoration: none
+}
+
+a.nav {
+	font-weight: 700;
+	color: #645487;
+	text-decoration: none
+}
+
+.card {
+	background: #fff;
+	box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #fff;
+	border-radius: 8px
+}
+
+button,
+.button {
+	margin: 11px;
+	padding: 11px;
+	font-weight: 700;
+	font-size: 15px;
+	color: #645487;
+	background: linear-gradient(145deg, #e6e6e6, #fff);
+	border: none;
+	border-radius: 8px;
+	box-shadow: 4px 4px 7px #d9d9d9, -4px -4px 7px #fff
+}
+
+.in-card, .card:hover, button:hover, .button:hover {
+	color: #875480;
+	border-radius: 8px;
+	box-shadow: inset 4px 4px 7px #d9d9d9, inset -4px -4px 7px #fff
+}
+
+button.purple {
+	color: #000;
+	background: linear-gradient(145deg, #ab5fcd, #cb70f4);
+	box-shadow: 4px 4px 7px #a259c2, -4px -4px 7px #db79ff
+}
+
+button.purple:hover {
+	box-shadow: inset 4px 4px 7px #a259c2, inset -4px -4px 7px #db79ff
+}
+
+input.input {
+	padding: 9px;
+	width: 100%;
+	height: 38px;
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #fff
+}
+
+.small {
+	font-size: 12.5px
+}
+
+.large {
+	font-size: 23px
+}
+
+.huge {
+	font-size: 55px
+}
+
+.logo {
+	font-weight: 700;
+	color: #be69e4
+}
+
+.purple {
+	background: #be69e4
+}
