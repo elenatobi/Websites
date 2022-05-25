@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="e1.css"?>
+
+
+<todos>
+    <página>
+        <bandeira>
+            <bandeiraObj>investidores</bandeiraObj>
+        </bandeira>
+        <navBar>
+            <logo>Fresa pesquisa</logo>
+            <nav>Lugar 1</nav>
+            <nav>Lugar 2</nav>
+            <nav>Lugar 3</nav>
+            <nav>Todos os investimentos</nav>
+            <nav>Lugar 5</nav>
+            <nav>Lugar 6</nav>
+        </navBar>
+        <seção gradiente = "azul">
+            <titleHeader>Bem-vindo ao centro de pesquisa Fresa!</titleHeader>
+            <pHeader>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</pHeader>
+        </seção>
+        <seção gradiente = "branco1">
+            <titleBrief>Pier 17</titleBrief>
+            <!-- <sequence>[1 2 3 4 5 6 ...]</sequence> -->
+            <pBrief>O Pier 17 está representando o mundo, com conteúdo de tudo que você pode encontrar neste mundo. Ele é dividido em 6 seções, que estão listadas abaixo.</pBrief>
+            <p>1. Espaço, mundo objetivo e interações</p>
+            <p>2. Informações pessoais</p>
+            <p>3. Personalidade e status</p>
+            <p>4. Vida cotidiana e rotina diária</p>
+            <p>5. Outras pessoas</p>
+            <pLast>6. Sociedade</pLast>
+        </seção>
+    </página>
+</todos>

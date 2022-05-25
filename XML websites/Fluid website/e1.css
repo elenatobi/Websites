@@ -1,0 +1,83 @@
+navBar{display: block; background: linear-gradient(27deg, rgb(56, 55, 144), rgb(30, 102, 185)); padding-top: 30px; padding-bottom: 30px; color: white; }
+
+logo{display:inline; text-align:left; font-size:19px; padding-left: 10%; padding-top: 30px; padding-bottom: 30px; cursor: pointer;}
+nav {display:inline; text-align:left; font-size:19px; padding-left: 5%;  padding-top: 30px; padding-bottom: 30px; cursor: pointer;}
+nav:hover{color: rgb(86, 190, 137); }
+
+seção[gradiente = "azul"]   {background: linear-gradient(45deg, #3e3b95, #2c8de1);                       display: block; color: white; }
+seção[gradiente = "vermelho"]    {background: linear-gradient(-25deg, #e66465, #9198e5);                      display: block; color: white; }
+seção[gradiente = "tolet"] {background: linear-gradient(55deg, rgb(61, 57, 146), rgb(62, 58, 148));     display: block; color: white; }
+seção[gradiente = "branco1"] {background: linear-gradient(60deg, rgb(247, 246, 247), rgb(239, 238, 239)); display: block; color: black; }
+seção[gradiente = "branco2"] {background: linear-gradient(66deg, rgb(241, 243, 243), rgb(235, 237, 237)); display: block; color: black; }
+
+titleHeader{display:block; font-weight:bolder; text-align:left; padding-top: 120px; padding-bottom: 1px;  }
+pHeader    {display:block;                     text-align:left; padding-top: 30px;  padding-bottom: 50px; }
+                                                                                                          
+titleBrief {display:block; font-weight:bolder; text-align:left; padding-top: 70px;  padding-bottom: 1px;  }
+pBrief     {display:block;                     text-align:left; padding-top: 10px;  padding-bottom: 60px; }
+
+title           {display:block; font-weight:bolder; text-align:left; padding-top: 60px; padding-bottom: 1px;  }
+pFirst          {display:block;                     text-align:left; padding-top: 30px; padding-bottom: 5px; }
+p               {display:block;                     text-align:left; padding-top: 5px; padding-bottom: 5px; }
+pLast           {display:block;                     text-align:left; padding-top: 5px; padding-bottom: 50px; }
+sequence        {display:block; font-weight:bolder; text-align:left; color: blue;  }
+sequenceColored {display:block; font-weight:bolder; text-align:left; color: white; }
+
+
+
+
+  titleHeader     {font-size:60px; padding-left: 20%; width: 60%; }
+  pHeader         {font-size:19px; padding-left: 20%; width: 60%; }
+                  
+  titleBrief      {font-size:36px; padding-left: 7%;  width: 50%; }
+  pBrief          {font-size:19px; padding-left: 7%;  width: 50%; }
+                                                      
+  title           {font-size:30px; padding-left: 7%;  width: 80%; }
+  pFirst, p, pLast{font-size:17px; padding-left: 7%;  width: 80%; }
+  sequence        {font-size:25px; padding-left: 7%; }
+  sequenceColored {font-size:25px; padding-left: 7%; }
+
+
+@media only screen and (max-width: 1000px) {
+  nav{display: none;}
+}
+
+@media only screen and (max-width: 700px) {
+  titleHeader     {font-size:60px; padding-left: 10%; width: 80%; }
+  pHeader         {font-size:19px; padding-left: 10%; width: 80%; }
+                  
+  titleBrief      {font-size:36px; padding-left: 5%;  width: 82%; }
+  pBrief          {font-size:19px; padding-left: 5%;  width: 82%; }
+                                                      
+  title           {font-size:30px; padding-left: 5%;  width: 90%; }
+  pFirst, p, pLast{font-size:17px; padding-left: 5%;  width: 90%; }
+  sequence        {font-size:25px; padding-left: 5%; }
+  sequenceColored {font-size:25px; padding-left: 5%; }
+}
+
+@media only screen and (max-width: 450px) {
+  titleHeader     {font-size:45px; padding-left: 1%; width: 98%; }
+  pHeader         {font-size:17px; padding-left: 1%; width: 98%; }
+                  
+  titleBrief      {font-size:33px; padding-left: 1%; width: 98%; }
+  pBrief          {font-size:17px; padding-left: 1%; width: 98%; }
+  
+  title           {font-size:27px; padding-left: 1%; width: 98%; }
+  pFirst, p, pLast{font-size:15px; padding-left: 1%; width: 98%; }
+  sequence        {font-size:19px; padding-left: 1%; }
+  sequenceColored {font-size:19px; padding-left: 1%; }
+}
+
+@media only screen and (max-width: 300px) {
+  navBar, logo{display: none}
+  titleHeader     {font-size:33px; padding-left: 1%; width: 98%; }
+  pHeader         {font-size:11px; padding-left: 1%; width: 98%; }
+                  
+  titleBrief      {font-size:27px; padding-left: 1%; width: 98%; }
+  pBrief          {font-size:11px; padding-left: 1%; width: 98%; }
+  
+  title           {font-size:21px; padding-left: 1%; width: 98%; }
+  pFirst, p, pLast{font-size:9px; padding-left: 1%; width: 98%; }
+  sequence        {font-size:11px; padding-left: 1%; }
+  sequenceColored {font-size:11px; padding-left: 1%; }
+}
