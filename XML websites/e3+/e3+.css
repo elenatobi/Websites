@@ -1,0 +1,128 @@
+* {
+	display: block;
+	font-family: Helvetica;
+	font-size: 14.1px;
+	color: #6d7486
+}
+
+todos {
+	width: 950px;
+	margin: auto
+}
+
+flex{
+	padding: 10px 0;
+	border-bottom: 1px solid silver
+}
+
+sec{
+	margin: 10px 0;
+}
+
+sec:nth-child(1):before{
+    display: none;
+    content: none;
+}
+
+sec:before {
+	display: block;
+	content: attr(título);
+	padding: 2px 2px 2px 5px;
+	vertical-align: middle;
+	font-weight: bolder;
+	font-size: 17px;
+	color: #4c3e79;
+	background: #f8f8f6;
+	border: 1px solid silver;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #fff
+}
+
+h1 {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+	font-weight: bolder;
+	font-size: 23px;
+	color: #c18de5
+}
+
+h3{
+    margin: 8px 0;
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+h5{
+    margin: 8px 0;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+image {
+	width: 950px;
+	height: 300px;
+	background-image: url("https://uploads-ssl.webflow.com/6123b7f3a062a25a8b4d4119/616351dac8cb2b6fc50ac26c_%C3%A4mnesomr%C3%A5den%202.png");
+	background-position: 0 -37px;
+	background-size: 950px 400px;
+	background-repeat: no-repeat
+}
+
+nav{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	font-weight: 700;
+	font-size: 12.5px;
+	color: #645487;
+}
+
+nav:hover {
+	text-decoration: underline;
+}
+
+nav:nth-child(7), nav:nth-child(8){
+	float: right;
+}
+
+cer {
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	height: 45px;
+	border: .1px solid silver;
+	border-radius: 5px;
+	box-shadow: inset 5px 5px 9px #d9d9d9, inset -5px -5px 9px #fff
+}
+
+cer:hover {
+	border-image: linear-gradient(90deg, #7030a0 0, #95b3d7 50%, #0070c0 100%);
+	border-image-slice: 1
+}
+
+np{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 11px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: #645487;
+	text-align: center;
+	border-radius: 8px;
+	background: linear-gradient(145deg, #e6e6e6, #fff);
+	box-shadow: 4px 4px 7px #d9d9d9, -4px -4px 7px #fff;
+}
+
+np:nth-child(4){
+	float: right
+}
+
+np:hover{
+	color: #875480;
+	border-radius: 8px;
+	box-shadow: inset 4px 4px 7px #d9d9d9, inset -4px -4px 7px #fff
+}
+
+seq {
+	padding-left: 5px
+}
